@@ -24,7 +24,7 @@ Project consists of a utilizing Vagrant provisioning and git bash to automate th
 <h2>Program walk-through:</h2>
 
 <p align="left">
-- VM started using Vagrant and editing the config using VIM to add the setup steps to the provisioning section <br/>
+- VM started using Vagrant init geerlingguy ubuntu2004 and editing the config using VIM to add the setup steps to the provisioning section <br/>
 
 <img width="710" alt="vagrant provisoning" src="https://user-images.githubusercontent.com/85902399/204161378-41512417-0501-4e02-a239-b60e72378e6d.png">
 
@@ -39,7 +39,7 @@ We need to create one more file that is needed for the script.  this will be sav
 
 <br />
 
-Once the script is completed, open a web browser to the local vm ip address http://192.168.39.21/.
+load the VM using vagrant up command.  Once the script is completed, open a web browser to the local vm ip address http://192.168.39.21/.
 
 
 <img width="1901" alt="automatedwordpress" src="https://user-images.githubusercontent.com/85902399/204161495-b2f3e108-4d50-46cc-ac37-dd82cc0dc119.png">
